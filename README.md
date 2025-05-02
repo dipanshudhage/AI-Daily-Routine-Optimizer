@@ -1,101 +1,123 @@
-## 🧠 AI-Powered Daily Routine Optimizer
+# 🧠 AI-Powered Daily Routine Optimizer
 
-### 📌 Overview
-
-The **AI-Powered Daily Routine Optimizer** is a smart, interactive Streamlit-based web app that generates a personalized daily schedule based on user inputs like wake/sleep time, focus hours, and personal priorities.
-
-This project is designed for students, professionals, and productivity enthusiasts who want a structured and optimized day tailored to their lifestyle.
+A smart and interactive Streamlit-based app that generates a personalized daily schedule based on your wake/sleep times, focus preferences, and activity goals — all without relying on external APIs or AI services.
 
 ---
 
-### 🔍 Problem Statement
+## 🚀 Overview
 
-Modern life is busy and unstructured, often leading to poor time management, stress, and decreased productivity. Many individuals struggle to organize their day efficiently without external tools or guidance.
-
----
-
-### ✅ Features
-
-* 🎯 **Customizable Wake & Sleep Time**
-* ⏳ **Peak Focus Time Selector (Morning, Afternoon, Evening)**
-* 🏆 **Multi-Priority Task Input (Study, Exercise, Relax, etc.)**
-* 🧘 **Break, Nap, Sleep, and Focus Periods Balanced**
-* 📊 **Time Distribution Pie Chart**
-* 📥 **Downloadable Schedule (.txt)**
-* 💡 **Smart Suggestions for Productivity**
+This project helps users build an optimized daily routine with enhanced time management, tailored priorities, and smart scheduling. Designed especially for students, professionals, and anyone looking to improve productivity with balanced breaks, sleep, and personal growth time.
 
 ---
 
-### ⚙️ Technologies Used
+## 📌 Features
 
-* Python 3.11+
-* [Streamlit](https://streamlit.io/)
-* Pandas
-* Matplotlib
-
----
-
-### 🏗️ System Development Approach
-
-The system divides the active hours between the selected tasks based on importance and optimal times for focus. It generates time-blocks, visualizes task distribution, and provides suggestions based on selected inputs.
+- ⏰ Wake-up and Sleep Time Setup  
+- 🎯 Priority Selection (Study, Exercise, Relaxation, etc.)  
+- 🧠 Peak Focus Hour Customization  
+- 📅 Intelligent Hourly Task Distribution  
+- 📊 Visual Time Distribution Pie Chart  
+- 💡 Smart Suggestions for better productivity  
+- 📥 Downloadable Schedule (.txt format)  
+- 🖼️ Professional User Interface & Outcome Visualization  
 
 ---
 
-### 📷 Sample Output (UI)
+## 🛠️ Tech Stack
 
-| Interface                | Output                                  |
-| ------------------------ | --------------------------------------- |
-| ![UI](assets/app_ui.png) | ![Schedule](assets/sample_schedule.png) |
+- **Frontend & Logic**: [Streamlit](https://streamlit.io/)
+- **Language**: Python 3.x
+- **Libraries Used**:  
+  - `pandas`  
+  - `matplotlib`  
+  - `datetime`  
+  - `random`  
+  - `streamlit`  
 
 ---
 
-### 🚀 Installation & Run
+## 📂 Folder Structure
+
+```
+📁 ai-daily-routine-optimizer
+│
+├── 📁 app
+│   ├── app.py
+│   └── requirements.txt
+│
+├── 📁 assets
+│   ├── interface.png
+│   └── outcome.png
+│
+├── 📁 data
+│   └── optimized_schedule.txt
+│
+├── 📁 doc
+│   ├── presentation.pptx
+│   └── report.pdf
+│
+├── .gitignore
+├── LICENSE
+└── README.md
+```
+
+---
+
+## 🔧 How to Run Locally
+
+1. **Clone the repository:**
 
 ```bash
 git clone https://github.com/your-username/ai-daily-routine-optimizer.git
-cd ai-daily-routine-optimizer
+cd ai-daily-routine-optimizer/app
+```
+
+2. **Create a virtual environment (optional but recommended):**
+
+```bash
+python -m venv venv
+source venv/bin/activate  # or venv\Scripts\activate on Windows
+```
+
+3. **Install dependencies:**
+
+```bash
 pip install -r requirements.txt
+```
+
+4. **Run the app:**
+
+```bash
 streamlit run app.py
 ```
 
 ---
 
-### 📌 Folder Structure
+## 📈 Output Preview
 
-```
-📁 ai-daily-routine-optimizer
-│
-├── 📄 app.py
-├── 📄 requirements.txt
-├── 📄 README.md
-├── 📁 assets
-│   ├── app_ui.png
-│   └── sample_schedule.png
-```
+| Interface | Outcome |
+|-----------|---------|
+| ![interface](../assets/interface.png) | ![outcome](../assets/outcome.png) |
 
 ---
 
-### 🎓 Presented By
+## 📌 Future Enhancements
 
-* **Student Name**: Dipanshu Dhage
-* **College**: Ujjain Engineering College
-* **Department**: Electronics and Communication
-* **Email**: *[your-email@example.com](mailto:your-email@example.com)*
-* **AICTE Student ID**: *Your AICTE ID*
-
----
-
-### 🔮 Future Scope
-
-* Mobile-friendly version (Progressive Web App)
-* Machine learning integration for smarter recommendations
-* Google Calendar/Outlook sync
-* Offline desktop version using Electron
+- Drag-and-drop custom time blocks  
+- Save multiple routines for different weekdays  
+- Add goal tracking and productivity analytics  
+- Dark/light theme switching  
+- Export to Google Calendar  
 
 ---
 
-### 📚 References
+## 📜 License
 
-* Streamlit Docs: [https://docs.streamlit.io](https://docs.streamlit.io)
-* Matplotlib Docs: [https://matplotlib.org/stable/contents.html](https://matplotlib.org/stable/contents.html)
-* Pandas Docs: [https://pandas.pydata.org/docs/](https://pandas.pydata.org/docs/)
+This project is licensed under the [MIT License](./LICENSE).
+
+---
+
+## 🙌 Acknowledgments
+
+- Streamlit community for an intuitive app framework  
+- Open-source contributors and educators who inspired clean productivity tools
