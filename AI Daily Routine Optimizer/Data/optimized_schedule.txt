@@ -1,0 +1,17 @@
+05:00 → Study
+06:00 → Exercise
+07:00 → Relax
+08:00 → Study
+09:00 → Work
+10:00 → Study
+11:00 → Break
+12:00 → Reading
+13:00 → Entertainment
+14:00 → Nap
+15:00 → Break
+16:00 → Social
+17:00 → Exercise
+18:00 → Break
+19:00 → Relax
+20:00 → Reading
+21:00 → Entertainment
