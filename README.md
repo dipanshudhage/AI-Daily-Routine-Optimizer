@@ -69,7 +69,7 @@ This project helps users build an optimized daily routine with enhanced time man
 
 ```bash
 git clone https://github.com/dipanshudhage/AI-Daily-Routine-Optimizer.git
-cd ai-daily-routine-optimizer/app
+cd AI-Daily-Routine-Optimizer/App
 ```
 
 2. **Create a virtual environment (optional but recommended):**
