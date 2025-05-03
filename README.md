@@ -1,6 +1,6 @@
 # 🧠 AI-Powered Daily Routine Optimizer
 
-A smart and interactive Streamlit-based app that generates a personalized daily schedule based on your wake/sleep times, focus preferences, and activity goals — all without relying on external APIs or AI services.
+A smart and interactive Streamlit-based app that generates a personalized daily schedule based on your wake/sleep times, focus preferences, and activity goals.
 
 ---
 
